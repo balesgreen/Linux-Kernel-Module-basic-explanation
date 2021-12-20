@@ -77,4 +77,8 @@
   <br>
   </b>
       [ printk(KERN_INFO "Estou aqui, amigo :)\n"); ]
+      
+<b> Mas o que é essa função KERN_INFO? O que ela faz? </b>
+  
+💥 Bom, aqui contém alguns exemplo de tipos de níveis de logs. <a href="https://elinux.org/Debugging_by_printing#Log_Levels">clique aqui</a>
 
