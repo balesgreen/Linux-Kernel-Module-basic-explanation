@@ -12,7 +12,7 @@
 
 <b><h2>📌 -> Linux/Module.h</b>:</h2> é o cabeçalho que trabalha com modulos do Kernel, é o cabeçalho que nos ajudará na construção do nosso módulo e também faz parte do código-fonte do kernel do linux.
 
-<b><h2>📌 -> Linux/init.h</b>:</h2> -> Linux/init.h</b>: é o cabeçalho que trabalha com a inicialização e término de dados como algum dos módulos finais.
+<b><h2>📌 -> Linux/init.h</b>:</h2> é o cabeçalho que trabalha com a inicialização e término de dados como algum dos módulos finais.
 
   - Setando módulos
   
