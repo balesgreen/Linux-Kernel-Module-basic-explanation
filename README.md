@@ -18,4 +18,7 @@
   
   <img src="https://imgur.com/HBCuki1.png">
   <b>Aqui setamos alguns módulos como módulos de descrição, autor, licença e até a versão do nosso projeto LKM.</b>
+  
+
+# Estrutura geral do KM
 
