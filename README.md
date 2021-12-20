@@ -50,6 +50,7 @@
    
    
    <h3>🌕<b> Printk() x Printf()</b></h3>
+   <br>
     <b>
     🌘 printk() ~# Essa função C da interface do Linux é uma função que imprime mensagens no log do Kernel. Essa função trabalha com um parâmetro denominado
     string de formato, que é um método que renderiza um número arbitrário de tipos de dados variados em uma string e essa string é a string que é impressa no
@@ -62,8 +63,16 @@
       <br>
   <br>Vejamos o motivo:
       <br>
+      <br>
   <i>Níveis de registro</i>
   
-      
-    </b>
+      ⭐️ A função printk() permite que um chamador especifique o tipo e a importância de uma mensagem que está sendo enviada. Este especificador é chamado
+        de nível de log. O nível de registro especifica o tipo de mensagem que está sendo enviada para o registro do Kernel. O nível de kernel é especificado
+        prefixando uma string que descreve o nível de log até o início da mensagem ser reproduzida.
+  <br>
+  <br>
+        🪵 Por exemplo: Uma mensagem pode ser reproduzida no KERN_INFO usando a seguinte função em que eu usei no KM.
+          <b>
+          printk(KERN_INFO "Estou aqui, amigo :)\n");
+          </b>
 
