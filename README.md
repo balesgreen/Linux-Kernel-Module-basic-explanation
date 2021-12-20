@@ -50,4 +50,20 @@
    
    
    <h3>🌕<b> Printk() x Printf()</b></h3>
+    <b>
+    🌘 printk() ~# Essa função C da interface do Linux é uma função que imprime mensagens no log do Kernel. Essa função trabalha com um parâmetro denominado
+    string de formato, que é um método que renderiza um número arbitrário de tipos de dados variados em uma string e essa string é a string que é impressa no
+    log do kernel.
+  
+    🌒 printf() ~# Essa função C uma das principais funções de output do C. As strings de formato printf são complementares da função de string de formato
+    do scanf() que oferecem um input formatado. Resumidamente, essa função imprime uma mensagem ou resultado no seu terminal após ela ter sido executada.
+  
+    🌗 Diferença entre ambos: Por mais que a função printk() seja baseada no printf(), em algumas situações é impossível usa-la da mesma forma que o printf().
+      <br>
+  <br>Vejamos o motivo:
+      <br>
+  <i>Níveis de registro</i>
+  
+      
+    </b>
 
