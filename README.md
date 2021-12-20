@@ -2,7 +2,7 @@
 
   - Explicação geral de toda estrutura do nosso KM.
 
-  -> <img src="https://imgur.com/EOm0gAs.png">
+  <img src="https://imgur.com/EOm0gAs.png">
     **Bom, temos aqui então todo nosso cabeçalho de includes de bibliotecas. Vamos fazer uma explicação sobre cada biblioteca dessa de uma forma mais completa,
     já que expliquei de forma resumida no projeto.*
     
