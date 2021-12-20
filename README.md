@@ -43,7 +43,6 @@
    - Vamos entender como o printk() funciona e qual é a sua diferença com o printf()
 
    <img src="https://imgur.com/jsL2jjh.png">
-   <br>
    <img src="https://imgur.com/AAcarmM.png">
    
    
