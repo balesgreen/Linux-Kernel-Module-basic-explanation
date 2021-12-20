@@ -1,6 +1,6 @@
 # Linux Kernel Module - Part 1
 
-  - Explicação geral de toda estrutura do nosso KM.
+  - Explicação geral de toda estrutura do nosso LKM.
 
   <img src="https://imgur.com/EOm0gAs.png">
     <b>Bom, temos aqui então todo nosso cabeçalho de includes de bibliotecas. Vamos fazer uma explicação sobre cada biblioteca dessa de uma forma mais completa,
@@ -20,7 +20,7 @@
   <b>Aqui setamos alguns módulos como módulos de descrição, autor, licença e até a versão do nosso projeto LKM.</b>
   
 
-# Estrutura geral do KM
+# Estrutura geral do LKM
 
   - Início da classe init_modsys 
   
@@ -29,11 +29,10 @@
    <br>
    <br>
    
-   <b><h2>📌 -> static int __init init_modsys(void)</b>:</h2> Esta é a primeira função que fiz para iniciar o nosso KM. Essa função é carregada assim que o módulo
-   é executado. Ou seja, o conteúdo que colocamos dentro dela aparecerá dentro dos logs do kernel. Confira abaixo:
+   <b><h2>📌 -> static int __init init_modsys(void)</b>:</h2> Esta é a primeira função que fiz para iniciar o nosso LKM. Essa função é carregada assim que o módulo é executado. Ou seja, o conteúdo que colocamos dentro dela aparecerá dentro dos logs do kernel. Confira abaixo:
    
    <img src="https://imgur.com/0ey3cQO.png">
-   <b>O mesmo ocorre quando descarregamos o KM na nossa função [static int __exit exit_modsys(void)]. Confira abaixo.</b>
+   <b>O mesmo ocorre quando descarregamos o LKM na nossa função [static int __exit exit_modsys(void)]. Confira abaixo.</b>
    <img src="https://imgur.com/Q4izZbj.png">
    
    <i>Mas daí surge uma dúvida. Como essas mensagens foram chegar ali...?</i>
@@ -72,7 +71,7 @@
         prefixando uma string que descreve o nível de log até o início da mensagem ser reproduzida.
   <br>
   <br>
-        🪵 Por exemplo: Uma mensagem pode ser reproduzida no KERN_INFO usando a seguinte função em que eu usei no KM.
+        🪵 Por exemplo: Uma mensagem pode ser reproduzida no KERN_INFO usando a seguinte função em que eu usei no LKM.
         <br>
   <br>
   </b>
@@ -85,15 +84,15 @@ Mas explicando de forma rápida, básicamente é o tipo de Registro de Nível em
 
 <h1>Init e Exit Modules</h1>
   - Temos então duas funções simples que estão no final de nosso projeto.
-  - Essas funções como já diz, executam uma função do nosso KM e essa função é a init_modsys e a exit_modsys.
+  - Essas funções como já diz, executam uma função do nosso LKM e essa função é a init_modsys e a exit_modsys.
 
-  Exemplificando: <b>Básicamente o sistema vai entender quando é hora de executarmos o nosso KM e quando é hora de descarregar o Kernel.</b>
+  Exemplificando: <b>Básicamente o sistema vai entender quando é hora de executarmos o nosso LKM e quando é hora de descarregar o Kernel.</b>
   
-  - Abaixo estarei deixando os comandos para que você possa executar o KM em seu sistema. (Recomendo que utilize alguma VM, pois não me responsabilizo por danos causados em sua máquina.)
+  - Abaixo estarei deixando os comandos para que você possa executar o LKM em seu sistema. (Recomendo que utilize alguma VM, pois não me responsabilizo por danos causados em sua máquina.)
 
-<h2>🔑 <b> -> Executando o nosso KM. </b></h2>
+<h2>🔑 <b> -> Executando o nosso LKM. </b></h2>
   - Primeiro passo é você clonar o Git desse projeto utilizando o seguinte comando: git clone https://github.com/MarktwainSTDLL/Linux-Kernel-Module-basic-explanation.git
-  - Segundo passo é você entrar no diretório desse projeto e digitar os seguintes comandos para montarmos o KM.
+  - Segundo passo é você entrar no diretório desse projeto e digitar os seguintes comandos para montarmos o LKM.
     <b>-> make && clear && ls </b><br><br>
   - Você verá que apareceram novos arquivos mas o que devemos nos preocupar é com o file .ko (Kernel Object).
   - digite o seguinte comando: ( insmod kernel_module.ko )
