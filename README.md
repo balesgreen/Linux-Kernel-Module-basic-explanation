@@ -51,7 +51,7 @@
    <h3>🌕<b> Printk() x Printf()</b></h3>
    <br>
     <b>
-    🌘 printk() ~# Essa função C da interface do Linux é uma função que imprime mensagens no log do Kernel. Essa função trabalha com um parâmetro denominado
+    🌘 printk() ~# Essa função C da interface do Linux é uma função que imprime mensagens em diferentes níveis de logs do Kernel. Essa função trabalha com um parâmetro denominado
     string de formato, que é um método que renderiza um número arbitrário de tipos de dados variados em uma string e essa string é a string que é impressa no
     log do kernel.
   
@@ -60,13 +60,13 @@
   
     🌗 Diferença entre ambos: Por mais que a função printk() seja baseada no printf(), em algumas situações é impossível usa-la da mesma forma que o printf().
   
-      <br>
+      
   <br>Vejamos o motivo:
       <br>
       <br>
   <i>Níveis de registro</i>
   
-      ⭐️ A função printk() permite que um chamador especifique o tipo e a importância de uma mensagem que está sendo enviada. Este especificador é chamado
+  ⭐️ A função printk() permite que um chamador especifique o tipo e a importância de uma mensagem que está sendo enviada. Este especificador é chamado
         de nível de log. O nível de registro especifica o tipo de mensagem que está sendo enviada para o registro do Kernel. O nível de kernel é especificado
         prefixando uma string que descreve o nível de log até o início da mensagem ser reproduzida.
   <br>
@@ -75,7 +75,7 @@
         <br>
   <br>
   </b>
-      [ printk(KERN_INFO "Estou aqui, amigo :)\n"); ]
+      <code>printk(KERN_INFO "Estou aqui, amigo :)\n");</code>
       
 <b> Mas o que é essa função KERN_INFO? O que ela faz? </b>
   
@@ -91,17 +91,17 @@ Mas explicando de forma rápida, básicamente é o tipo de Registro de Nível em
   - Abaixo estarei deixando os comandos para que você possa executar o LKM em seu sistema. (Recomendo que utilize alguma VM, pois não me responsabilizo por danos causados em sua máquina.)
 
 <h2>🔑 <b> -> Executando o nosso LKM. </b></h2>
-  - Primeiro passo é você clonar o Git desse projeto utilizando o seguinte comando: git clone https://github.com/MarktwainSTDLL/Linux-Kernel-Module-basic-explanation.git
+  - Primeiro passo é você clonar o Git desse projeto utilizando o seguinte comando: <code>git clone https://github.com/MarktwainSTDLL/Linux-Kernel-Module-basic-explanation.git</code>
   - Segundo passo é você entrar no diretório desse projeto e digitar os seguintes comandos para montarmos o LKM.
-    <b>-> make && clear && ls </b><br><br>
+    <b>-> <code>make && clear && ls</code> </b><br><br>
   - Você verá que apareceram novos arquivos mas o que devemos nos preocupar é com o file .ko (Kernel Object).
-  - digite o seguinte comando: ( insmod kernel_module.ko )
+  - digite o seguinte comando: <code>insmod kernel_module.ko</code>
 
 Após ter digitado este comando, você precisa digitar o seguinte comando para ver a mensagem armazenada nos registros do kernel.
   - dmesg
 E você vai poder observar que aparecerá uma mensagem bem no final do Registro do Kernel.
 
-  - Mas como eu irei descarregar o Kernel? Bom, digite o seguinte comando: rmmod kernel_module.ko e após isso digite dmesg novamente e você verá que o nosso Registro de Kernel apareceu com outra mensagem, mas foi totalmente descarregado após a execução deste comando.
+  - Mas como eu irei descarregar o Kernel? Bom, digite o seguinte comando: <code>rmmod kernel_module.ko</code> e após isso digite <code>dmesg</code> novamente e você verá que o nosso Registro de Kernel apareceu com outra mensagem, mas foi totalmente descarregado após a execução deste comando.
 
 
 <h3>Agradeço imensamente a todos por terem lido até aqui e caso vocês encontrarem algum erro aqui, fale comigo pelo discord! É isso ai gente, até o próximo repositório!</h3>

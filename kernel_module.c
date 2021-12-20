@@ -2,6 +2,11 @@
 #include <linux/module.h> // Essa biblioteca éa biblioteca importante para nosso projeto, pois ela érespons�vel por carregar os modulos do Kernel
 #include <linux/init.h> // Essa biblioteca é usada para marcar algumas fun��es ou dados inicializados como fun��es de inicializa��o.
 
+#if CONFIG_MODVERSIONS==1 // Caso o Kernel esteja sobre CONFIG_MODVERSIONS, é necessário incluir a <linux/modversions.h>
+#define MODVERSIONS
+#include <linux/modversions.h>
+#endif
+
 MODULE_LICENSE("MARK");
 MODULE_AUTHOR("Mark Security");
 MODULE_DESCRIPTION("Very basic Kernel Module");
