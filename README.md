@@ -8,9 +8,9 @@
 <br>
 <br>
     
-<b style="color:red;">-> Linux/Kernel.h</b>: é o cabeçalho para construção de modulos, é o cabeçalho que faz parte do código-fonte do kernel do linux e é a library que importei para trabalhar com a construção de módulos.
+<b>📌-> Linux/Kernel.h</b>: é o cabeçalho para construção de modulos, é o cabeçalho que faz parte do código-fonte do kernel do linux e é a library que importei para trabalhar com a construção de módulos.
 
-<b>-> Linux/Module.h</b>: é o cabeçalho que trabalha com modulos do Kernel, é o cabeçalho que nos ajudará na construção do nosso módulo e também faz parte do código-fonte do kernel do linux.
+<b>📌-> Linux/Module.h</b>: é o cabeçalho que trabalha com modulos do Kernel, é o cabeçalho que nos ajudará na construção do nosso módulo e também faz parte do código-fonte do kernel do linux.
 
-<b>-> Linux/init.h</b>: é o cabeçalho que trabalha com a inicialização e término de dados como algum dos módulos finais.
+<b>📌-> Linux/init.h</b>: é o cabeçalho que trabalha com a inicialização e término de dados como algum dos módulos finais.
 
