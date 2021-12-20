@@ -33,10 +33,18 @@
    é executado. Ou seja, o conteúdo que colocamos dentro dela aparecerá dentro dos logs do kernel. Confira abaixo:
    
    <img src="https://imgur.com/0ey3cQO.png">
-   <b>O mesmo ocorre quando descarregamos o KM na nossa função <span style="font-size:20px;">static int __exit exit_modsys(void). Confira abaixo.</b>
+   <b>O mesmo ocorre quando descarregamos o KM na nossa função [static int __exit exit_modsys(void)]. Confira abaixo.</b>
    <img src="https://imgur.com/Q4izZbj.png">
    
-   <i>as daí surge uma dúvida. Como essas mensagens foram chegar ali...?</i>
+   <i>Mas daí surge uma dúvida. Como essas mensagens foram chegar ali...?</i>
+   
+   <b><h2>📌 -> Conhecendo o printk()</b>:</h2>
+   
+   - Vamos entender como o printk() funciona e qual é a sua diferença com o printf()
+
+   <img src="https://imgur.com/jsL2jjh.png">
+   <br>
+   <img src="https://imgur.com/AAcarmM.png">
    
    
    
