@@ -3,8 +3,9 @@
   - Explicação geral de toda estrutura do nosso KM.
 
   <img src="https://imgur.com/EOm0gAs.png">
-    *Bom, temos aqui então todo nosso cabeçalho de includes de bibliotecas. Vamos fazer uma explicação sobre cada biblioteca dessa de uma forma mais completa,
-    já que expliquei de forma resumida no projeto.
+    <b>Bom, temos aqui então todo nosso cabeçalho de includes de bibliotecas. Vamos fazer uma explicação sobre cada biblioteca dessa de uma forma mais completa,
+    já que expliquei de forma resumida no projeto.</b>
+<br>
     
 *-> Linux/Kernel.h: é o cabeçalho para construção de modulos, é o cabeçalho que faz parte do código-fonte do kernel do linux e é a library que importei para trabalhar com a construção de módulos.
 
