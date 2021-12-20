@@ -44,6 +44,7 @@
 
   <i>Init function</i>
    <img src="https://imgur.com/jsL2jjh.png">
+   <br>
   <i>Exit function</i>
    <img src="https://imgur.com/AAcarmM.png">
    
