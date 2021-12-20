@@ -14,3 +14,8 @@
 
 <b><h2>📌 -> Linux/init.h</b>:</h2> -> Linux/init.h</b>: é o cabeçalho que trabalha com a inicialização e término de dados como algum dos módulos finais.
 
+  - Setando módulos
+  
+  <img src="https://imgur.com/HBCuki1.png">
+  <b>Aqui setamos alguns módulos como módulos de descrição, autor, licença e até a versão do nosso projeto LKM.</b>
+
