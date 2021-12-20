@@ -22,3 +22,20 @@
 
 # Estrutura geral do KM
 
+  - Início da classe init_modsys 
+  
+  <img src="https://imgur.com/umOhUkT.png">
+    <b>Aqui vamos falar sobre toda essa estrutura e explicar sobre a diferença entre printk() e printf()</b>
+   <br>
+   <br>
+   
+   <b><h2>📌 -> static int __init init_modsys(void)</b>:</h2> Esta é a primeira função que fiz para iniciar o nosso KM. Essa função é carregada assim que o módulo
+   é executado. Ou seja, o conteúdo que colocamos dentro dela aparecerá dentro dos logs do kernel. Confira abaixo:
+   
+   <img src="https://imgur.com/0ey3cQO.png">
+   <b>O mesmo ocorre quando descarregamos o KM. Confira abaixo.</b>
+   <img src="https://imgur.com/Q4izZbj.png">
+   
+   <s>Mas daí surge uma dúvida. Como essas mensagens foram chegar ali...?</s>
+   
+
