@@ -60,6 +60,7 @@
     do scanf() que oferecem um input formatado. Resumidamente, essa função imprime uma mensagem ou resultado no seu terminal após ela ter sido executada.
   
     🌗 Diferença entre ambos: Por mais que a função printk() seja baseada no printf(), em algumas situações é impossível usa-la da mesma forma que o printf().
+  
       <br>
   <br>Vejamos o motivo:
       <br>
@@ -74,5 +75,6 @@
         🪵 Por exemplo: Uma mensagem pode ser reproduzida no KERN_INFO usando a seguinte função em que eu usei no KM.
         <br>
   <br>
+  </b>
       [ printk(KERN_INFO "Estou aqui, amigo :)\n"); ]
 
