@@ -36,6 +36,6 @@
    <b>O mesmo ocorre quando descarregamos o KM. Confira abaixo.</b>
    <img src="https://imgur.com/Q4izZbj.png">
    
-   <s>Mas daí surge uma dúvida. Como essas mensagens foram chegar ali...?</s>
+   <i>as daí surge uma dúvida. Como essas mensagens foram chegar ali...?</i
    
 
