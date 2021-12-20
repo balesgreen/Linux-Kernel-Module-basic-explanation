@@ -72,7 +72,7 @@
   <br>
   <br>
         🪵 Por exemplo: Uma mensagem pode ser reproduzida no KERN_INFO usando a seguinte função em que eu usei no KM.
-  ```
-  printk(KERN_INFO "Estou aqui, amigo :)\n");
-  ```
+        <br>
+  <br>
+      [ printk(KERN_INFO "Estou aqui, amigo :)\n"); ]
 
