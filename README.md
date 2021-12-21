@@ -106,5 +106,5 @@ E você vai poder observar que aparecerá uma mensagem bem no final do Registro 
 
 <h3>Agradeço imensamente a todos por terem lido até aqui e caso vocês encontrarem algum erro aqui, fale comigo pelo discord! É isso ai gente, até o próximo repositório!</h3>
 
-~# Mark desconnected...
+~# Mark disconnected...
   
